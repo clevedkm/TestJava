@@ -21,6 +21,7 @@ public class Main {
             System.out.println("------" + tt);
         }
         System.out.println();
+        System.out.println("test à ne pas suivre");
 
         Hashtable ht = new Hashtable();
         ht.put(1, "printemps");
