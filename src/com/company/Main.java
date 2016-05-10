@@ -27,6 +27,9 @@ public class Main {
         ht.put(10, "été");
         ht.put(12, "automne");
         ht.put(45, "hiver");
+        ht.put(44, "hiver");
+        ht.put(457, "hiver");
+        ht.put(454, "hiver");
 
         Enumeration e = ht.elements();
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.min.js">
+    </script>
+</head>
+<body>
+    <div class="container" >
+        <table border="2" bgcolor="#COCOFF">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" ng-model = "name" /></td>
+                <!--<td>{{ name }}</td>-->
+            </tr>
+            <tr>
+                <td>Prenom:</td>
+                <td><input type="text"  data-ng-model = "prenom" /></td>
+               <!-- <td>{{ prenom }}</td>-->
+                <td> <textarea onresize="200"> {{name +"  " +prenom}} </textarea> </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
