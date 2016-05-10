@@ -30,6 +30,7 @@ public class Main {
         ht.put(44, "hiver");
         ht.put(457, "hiver");
         ht.put(454, "hiver");
+        ht.put(4354, "hiver");
 
         Enumeration e = ht.elements();
 
